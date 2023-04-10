@@ -1,6 +1,8 @@
 import React from 'react'
 import './TrendCard.css'
 import { TrendData } from '../../Data/TrendData'
+import { v4 as uuidv4 } from 'uuid'
+
 
 const TrendCard = () => {
   return (
@@ -9,7 +11,7 @@ const TrendCard = () => {
 
       {TrendData.map((trend)=> {
         return(
-          <div className='trend'>
+          <div key={uuidv4()} className='trend'>
             <span>#{trend.name}</span>
             <span>{trend.shares}k shares</span>
           </div>

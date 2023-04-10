@@ -1,6 +1,7 @@
 import React from 'react'
 import './FollowersCard.css'
 import { Followers } from '../../Data/FollowersData'
+import { v4 as uuidv4 } from 'uuid'
 
 const FollowersCard = () => {
   return (
@@ -9,7 +10,7 @@ const FollowersCard = () => {
 
         {Followers.map((follower, id) => {
             return(
-                <div className='follower'>
+                <div key={uuidv4()} className='follower'>
                     <div>
                         <img src={follower.img} alt="" className='followerImage'/>
                         <div className="name">

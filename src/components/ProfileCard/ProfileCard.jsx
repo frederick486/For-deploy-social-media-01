@@ -1,6 +1,6 @@
 import React from 'react'
-import Cover from '../../img/cover.jpg'
-import Profile from '../../img/profileImg.jpg'
+import Cover from '../../img/canyon.jpg'
+import Profile from '../../img/Francis.jpg'
 import './ProfileCard.css'
 
 const ProfileCard = () => {
@@ -15,7 +15,7 @@ const ProfileCard = () => {
       </div>
 
       <div className="ProfileName">
-        <span>Zendaya</span>
+        <span>Francis</span>
         <span>Senior UI/UX Designer</span>
       </div>
 

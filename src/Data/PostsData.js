@@ -1,26 +1,26 @@
-import postPic1 from '../img/postpic1.jpg'
-import postPic2 from '../img/postpic2.jpg'
-import postPic3 from '../img/postpic3.JPG'
+import postPic1 from '../img/reve.gif'
+import postPic2 from '../img/gare.jpeg'
+import postPic3 from '../img/lac-de-montagnes-quatre.jpeg'
 
 export const PostsData = [
     {
         img: postPic1,
-        name : 'Tzuyu',
-        desc: "Happy New Year all friends ! #2023",
+        name : 'Myriam',
+        desc: "Une belle image",
         likes: 2300,
         liked: true
     },
     {
         img: postPic2,
-        name : 'Maryam',
-        desc: "Party time :)",
+        name : 'John',
+        desc: "Au départ de la gare ...",
         likes: 2300,
         liked: false
     },    
     {
         img: postPic3,
-        name : 'Salena Gomez',
-        desc: "At Archery Festival",
+        name : 'Jane',
+        desc: "Mes vacances de rêve",
         likes: 800,
         liked: false
     }
